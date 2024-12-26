@@ -40,18 +40,46 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "Coding Visualization",
     image: project2,
     description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "Flask", "MySQL"],
+  },
+  {
+    title: "E Waste Management",
+    image: project2,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "React", "MySQL", "MongoDb", "NodeJs", "ExpressJs", "TensorFlow"],
+  },
+  {
+    title: "CV Builder",
+    image: project2,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
+  },
+  {
+    title: "Online Voting System",
+    image: project2,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
+  },
+  {
+    title: "Netflix Clone",
+    image: project2,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS"],
+  },
+  {
+    title: "Titanic Survival Analysis",
+    image: project1,
+    description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
   },
   {
     title: "Portfolio Website",
@@ -71,6 +99,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 7678217204",
+  email: "vanshikawadhwa20@gmail.com",
 };

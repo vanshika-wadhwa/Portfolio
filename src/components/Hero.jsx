@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
-import ProfilePic from "../assets/kevinRushProfile.png";
+import ProfilePic from "../assets/vansh1.png";
 
 const Hero = () => {
   return (
