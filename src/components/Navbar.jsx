@@ -17,6 +17,7 @@ const Navbar = () => {
         <a href="https://www.instagram.com/1shikawadhwa/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <FaFigma />
         {/* <FaSquareXTwitter /> */}
+        
     </div>
   </nav>
 }

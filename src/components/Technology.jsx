@@ -21,7 +21,8 @@ import { SiOverleaf } from "react-icons/si";
 
 const Technology = () => {
   return (
-    <div className='border- border-neutral-800 pb-24'>
+    <div className='border-b border-blue-800 pb-24'>
+
       <h1 className='my-20 text-center text-4xl'>Technologies</h1>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
@@ -81,6 +82,7 @@ const Technology = () => {
         </div>
         
       </div>
+      
     </div>
   )
 }
