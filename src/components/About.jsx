@@ -28,9 +28,7 @@ const About = () => {
                     <div className="flex justify-center lg:justify-start">
                         <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
                     </div>
-                    <div className='w-0 text-red-300'>
-                        <button className=' pr-64 border-b px-2 font-bold rounded-full bg-blue-600'>Resume</button>
-                    </div>
+                    
                     <div className='w-full text-center'>
                         <button className='px-6 py-2 font-bold rounded-full bg-blue-600 text-white hover:bg-blue-700' onClick={handleDownload}>
                         Download Resume
