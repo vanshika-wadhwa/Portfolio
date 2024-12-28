@@ -1,5 +1,5 @@
 import { div } from 'framer-motion/client'
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../assets/abo.png'
 import { ABOUT_TEXT } from '../constants'
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                    <img className="rounded-2xl" src={aboutImg} alt="aboutImg" />
+                    <img className="rounded-2xl h-64" src={aboutImg} alt="aboutImg" />
                 </div>
                 
             </div>
