@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Technology from './components/Technology'
 // import Experience from './components/Experience'
+import Iconbar from './components/Iconbar'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
@@ -16,6 +17,7 @@ const App = () => {
       <div className='container mx-auto px-8'>
         <Navbar />
         <Hero />
+        <Iconbar />
         <About />
         <Technology />
         {/* <Experience /> */}

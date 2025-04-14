@@ -1,7 +1,10 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import portfolio from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/project-4.jpg";
+import ovs from "../assets/projects/ovs.jpg";
+import cvBuilder from "../assets/projects/cvbuilder.png";
+import movie from "../assets/projects/movie.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, MongoDB and Flask. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,39 +43,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "DSA Visualization",
-    image: project4,
-    description:
-      "DSA Visual Representation is an interactive platform designed to help users understand data structure and algorithm concepts through visualizations. The platform provides step-by-step demonstrations of various algorithms, including sorting and searching, while analyzing their time and space complexities. It also includes a coding playground for hands-on practice and educational content like tutorials and code snippets.",
-    technologies: ["HTML", "TailwindCSS", "JavaScript", "Flask", "MySQL"],
-  },
-  {
-    title: "E-Waste Management",
-    image: project2,
+    title: "Similar movies recommender",
+    image: movie,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "TailwindCSS", "JavaScript", "React", "MySQL", "MongoDB", "TensorFlow"],
-  },
-  {
-    title: "CV Builder",
-    image: project2,
-    description:
-      "Created a tool for users to generate CVs by submitting data. Allows users to download their CVs in multiple formats and provides real-time validation of input fields.",
-    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
-  },
-  {
-    title: "Online Voting System",
-    image: project2,
-    description:
-      "Built an Online Voting Platform allowing students to vote securely via student ID and face recognition, displaying real-time results. Enhances voter participation and ensures secure, transparent elections by streamlining the voting proces.",
-    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
-  },
-  {
-    title: "Netflix Clone",
-    image: project2,
-    description:
-      "Netflix's UI/UX clone",
-    technologies: ["HTML", "CSS"],
+    technologies: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn" ,"Jupyter Notebook" ,"Streamlit"],
+    code: "https://github.com/vanshika-wadhwa/movie_Recommender",
+    demo: "movie-recommender-umber.vercel.app",
   },
   {
     title: "Diwali Sales Analysis",
@@ -80,19 +57,63 @@ export const PROJECTS = [
     description:
       "Analyzed sales data of sweets during Diwali to identify trends and visualize insights. Helps local businesses make data-driven decisions by understanding peak sales times and customer preference.",
     technologies: ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook", "Kaggel"],
+    code: "https://github.com/vanshika-wadhwa/Diwali-Sales-Analysis ",
+    demo: "https://github.com/vanshika-wadhwa/Diwali-Sales-Analysis",
   },
+    
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    code: "https://github.com/vanshika-wadhwa/Portfolio",
+    demo: "portfolio-tau-eight-45.vercel.app",
   },
+  {
+    title: "DSA Visualization",
+    image: project4,
+    description:
+      "DSA Visual Representation is an interactive platform designed to help users understand data structure and algorithm concepts through visualizations. The platform provides step-by-step demonstrations of various algorithms, including sorting and searching, while analyzing their time and space complexities. It also includes a coding playground for hands-on practice and educational content like tutorials and code snippets.",
+    technologies: ["HTML", "TailwindCSS", "JavaScript", "Flask", "MySQL"],
+    code: "https://github.com/vanshika-wadhwa/coding_visualization",
+    demo: "https://github.com/vanshika-wadhwa/coding_visualization",
+
+  },
+  {
+    title: "CV Builder",
+    image: cvBuilder,
+    description:
+      "Created a tool for users to generate CVs by submitting data. Allows users to download their CVs in multiple formats and provides real-time validation of input fields.",
+    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
+    code: "https://github.com/Rajat2774/CV_builder",
+    demo: "https://github.com/Rajat2774/CV_builde",
+  },
+  {
+    title: "Online Voting System",
+    image: ovs,
+    description:
+      "Built an Online Voting Platform allowing students to vote securely via student ID and face recognition, displaying real-time results. Enhances voter participation and ensures secure, transparent elections by streamlining the voting proces.",
+    technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL"],
+    code: "https://github.com/vanshika-wadhwa/OnlineVotingSystem",
+    demo: "https://github.com/vanshika-wadhwa/OnlineVotingSystem",
+
+  },
+  // {
+  //   title: "Netflix Clone",
+  //   image: project2,
+  //   description:
+  //     "Netflix's UI/UX clone",
+  //   technologies: ["HTML", "CSS"],
+  //   code: "https://github.com/vanshika-wadhwa/netflixClone",
+  //   demo: "https://vanshika-wadhwa.github.io/netflixClone/", 
+  // },
+
   
 ];
 
 export const CONTACT = {
-  address: "Taraori, karnal, Haryana, 132116",
+  address: "karnal, Haryana",
   phoneNo: "+91 7678217204",
   email: "vanshikawadhwa20@gmail.com",
 };
