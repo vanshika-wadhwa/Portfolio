@@ -99,21 +99,10 @@ export const PROJECTS = [
     demo: "https://github.com/vanshika-wadhwa/OnlineVotingSystem",
 
   },
-  // {
-  //   title: "Netflix Clone",
-  //   image: project2,
-  //   description:
-  //     "Netflix's UI/UX clone",
-  //   technologies: ["HTML", "CSS"],
-  //   code: "https://github.com/vanshika-wadhwa/netflixClone",
-  //   demo: "https://vanshika-wadhwa.github.io/netflixClone/", 
-  // },
-
-  
 ];
 
 export const CONTACT = {
-  address: "karnal, Haryana",
+  address: "Haryana",
   phoneNo: "+91 7678217204",
   email: "vanshikawadhwa20@gmail.com",
 };
